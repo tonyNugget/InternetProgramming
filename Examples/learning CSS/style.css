@@ -1,7 +1,43 @@
+.title{
+    color: blue;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
 
-.main{
-    display : flex;
-    flex-direction : column;
+#main{
+    display: flex;
+    flex-direction:column;
+    border: 3px solid blue;
 }
 
 
+
+middle{
+    display: flex;
+       height:200px;
+    flex-direction:row;
+    border: 3px dotted black;
+}
+
+#content{
+    display:flex;
+    flex-direction:column;
+}
+
+#side{
+    color: red;
+    position: absolute;
+    height:193px;
+  right: 20px;
+    border: 3px solid red;
+}
+.footer{
+    color:green;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em;
+    border: 3px solid green;
+}
