@@ -39,8 +39,8 @@ middle{
 #side{
     color: red;
     position: absolute;
-    height:193px;
-  right: 20px;
+    height:400px;
+    right: 20px;
     border: 3px solid red;
 }
 .footer{
