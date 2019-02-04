@@ -15,7 +15,7 @@ body{
 }
 
 #main{
-    height:1000px;
+    height:2500px;
     display: flex;
     flex-direction:column;
     border: 3px solid blue;
@@ -25,7 +25,7 @@ body{
 
 middle{
     display: flex;
-       height:900px;
+       height:2000px;
     flex-direction:row;
     border: 3px dotted black;
 }
