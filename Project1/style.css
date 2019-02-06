@@ -1,0 +1,89 @@
+/*Anthony Zerka*/
+
+body{
+    background: lightgrey; 
+    color: darkblue;
+    font-family: Helvetica;
+    
+}
+#name{
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+#cim{
+     opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+#py{
+    width:50px;
+    height:50%;
+}
+
+
+navBar {
+    display:table;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li:hover{
+    -webkit-transform: scale(1.2);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    
+    border: solid blue 2px;
+    width:120%;
+    margin-bottom: 5px;
+}
+
+
+#home{
+    display:block;
+    text-align: center;
+}
+
+#python{
+    display:block;
+    text-align: center;
+}
+
+#java{
+    display:block;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    background-image: url("im.jpeg");
+}
+
+#c{
+    display:block;
+    text-align: center;
+}
+
+#cur{
+    display: inline-block;
+
+    border: solid blue 10px;
+    width:91%;
+  
+}
+
+
+footer{
+    text-align: center;
+}
