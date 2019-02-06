@@ -63,7 +63,9 @@ li{
 
 .table{
  display:table;
- table-layout: fixed;
+ margin-left:auto;
+ margin-right: auto;
+
  color:purple;
  text-align: left;
  border:dotted purple 10px;
