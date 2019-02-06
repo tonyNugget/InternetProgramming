@@ -1,0 +1,96 @@
+/*Anthony Zerka*/
+
+body{
+    background: lightgrey; 
+    color: darkblue;
+    font-family: Helvetica;
+    
+}
+#name{
+    text-align: center;
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+#t{
+    display:block;
+    text-align: center; 
+}
+
+navBar {
+    display:table;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li:hover{
+    -webkit-transform: scale(1.2);
+}
+
+
+a{
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    
+    border: solid blue 2px;
+    width:120%;
+    margin-bottom: 5px;
+}
+
+#color{
+    color:green;
+}
+
+#about{
+    display:block;
+    text-align: center;
+}
+
+#contact{
+    display:block;
+    text-align: center;
+}
+
+.table{
+ display:table;
+ table-layout: fixed;
+ color:purple;
+ text-align: left;
+ border:dotted purple 10px;
+}
+
+#s{
+    color:purple;
+    border:0px;
+    text-align: left;
+    
+}
+
+#cur{
+    display: inline-block;
+
+    border: solid blue 10px;
+    width:91%;
+  
+}
+
+#l{
+    text-align: left;
+}
+#s:hover{
+     -webkit-transform: scale(1);
+}
+
+footer{
+    text-align: center;
+}
