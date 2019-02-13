@@ -16,3 +16,16 @@ body{
     margin:0 auto;
     border-radius:20px;
 }
+
+#count{
+    background: lightblue;
+    font-size: 2em;    
+    width:900px;
+    height:50px;
+    margin:0 auto;
+    border-radius:20px;
+}
+#winloss{
+    color : black;
+    font-size: 15px; 
+}
