@@ -1,0 +1,31 @@
+/*
+Anthony Zerka
+CSS file for Slot Machine
+*/
+
+body{
+    display: block;
+    text-align: center;
+}
+
+#buttArea{
+     display : block;
+     text-align: center;
+}
+
+.img{
+    display: inline-block;
+    text-align: center;
+   
+}
+
+#butt{
+    background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
