@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    border:dotted;
+    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#score{
+    display:block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color:darkgreen;
+}
+#calc{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
