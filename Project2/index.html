@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+Anthony Zerka
+CST 336 - Project 2
+-->
+<html>
+    <head>
+        <title>Project 2</title>
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1 class="title">Project 2 </h1>
+        <manip id="manip"></manip>
+        <enterStuff id="info">
+            Enter your favorite word: 
+            <input id="data" type="text" name="word"></input> 
+            <button id="enter" type="button" >Enter</button><br><br>
+        </enterStuff>
+        
+        <pickFont>
+            Select your preferred font: 
+            <select name="fonts" id="list">
+                <option value="tnr">Times New Roman</option>
+                <option value="arial">arial</option>
+                <option value="courier">courier</option>
+        </select> <br>
+        </pickFont>        
+        <checkYaSelf>
+            Click if you want to add a border! -->
+            <input type="checkbox" name="ch" value="ch" id="ch">
+        </checkYaSelf><br>
+        <radioTime>
+            Select your favorite color: <br>
+            <input type="radio" name="color" id="Blue" value="Blue">
+            <label for="Blue">Blue</label><br>
+            <input type="radio" name="color" id="Red" value="Red">
+            <label for="Red">Red</label><br>
+            <input type="radio" name="color" id="Black" value="Black">
+            <label for="Black">Black</label><br>
+            <button id="rad" onclick="checkRadio()">Press here to update radio button values!</button>
+        </radioTime><br>
+        <footer id="footer">
+            <br><br><br><br><button id="clear">Press Here to clear screen</button>
+        <br>This simple webpage will allow for user input and allow for manipulation of the text.
+        
+        </footer><br><br>
+        <ender id="pic">
+            Thank you for visiting my page :)<br>
+            <img src="./peter.gif">
+        </ender>
+
+                
+    </body>
+        <script src="./js.js"></script>
+        <script src="./JQuery.js"></script>
+        <script>
+             var radios = document.getElementsByName('color');
+             var manipulation = document.querySelector('#manip');
+            function checkRadio() {
+
+            for (var i = 0, length = radios.length; i < length; i++) {
+                if (radios[i].checked && radios[i].value === "Red") {
+                    document.getElementById('manip').style.color = "red";
+                }
+                else if (radios[i].checked && radios[i].value === "Blue") {
+                    document.getElementById('manip').style.color = "blue";
+                }
+                else if (radios[i].checked && radios[i].value == "Black") {
+                  document.getElementById('manip').style.color = "black";
+                }
+            }
+}
+            
+        </script>
+</html>

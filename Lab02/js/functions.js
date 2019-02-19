@@ -15,7 +15,7 @@ var guessCount = 1;
 var win = 0;
 var loss = 0;
 var resetButton = document.querySelector('#reset');
-resetButton.style.display = 'none';
+
 guessfield.focus();
 function checkGuess() {
     var userGuess = Number(guessfield.value);
