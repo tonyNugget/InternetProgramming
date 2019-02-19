@@ -106,6 +106,7 @@ function checkq5() {
             if(score < 6){
                 score++;
             }
+            displayScore()
             break;
         }
         else{
@@ -133,16 +134,7 @@ function checkq6() {
 }
 
 function displayScore(){
-    final = (score/6) * 100;
+    var final = (score/6) * 100;
     scoreDis.innerHTML = "Score : " + score + " out of 6. You got " + final + "% correct!";
     
-}
-
-function calc(){
-    if (score === 6){
-        alert("Great job! you recieved a score higher than 90%! youre score was: " + score);
-    }
-    else{
-        alert("Good try, your score is : " + score + " and your percentage was : " + final);
-    }
 }
