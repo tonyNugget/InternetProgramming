@@ -21,7 +21,8 @@ var verify4 = document.querySelector('#corr4');
 var verify5 = document.querySelector('#corr5');
 var verify6 = document.querySelector('#corr6');
 
-var score = 0;
+ var score = 0;
+ var final = 0;
 
 var scoreDis = document.getElementById('score');
 
@@ -134,7 +135,19 @@ function checkq6() {
 }
 
 function displayScore(){
-    var final = (score/6) * 100;
+    final = (score/6) * 100;
     scoreDis.innerHTML = "Score : " + score + " out of 6. You got " + final + "% correct!";
     
 }
+
+             function calc(){
+                if (score === 6){
+                    alert("Great job! you recieved a score higher than 90%! youre score was: " + score);
+                }
+                else{
+                    alert("Good try, your score is : " + score + " and your percentage was : " + final);
+                }
+            }
+                
+
+            
