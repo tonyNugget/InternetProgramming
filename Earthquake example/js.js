@@ -1,14 +1,18 @@
-// Create a request variable and assign a new XMLHttpRequest object to it.
-var request = new XMLHttpRequest();
+
 var apiapi= document.getElementById("api");
 
-// Open a new connection, using the GET request on the URL endpoint
-request.open('GET', 'https://ghibliapi.herokuapp.com/films', true);
-
-request.onload = function () {
-apiapi.innerHTML = request;
+$.ajax({
+  type: "GET",
+  url: "http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=b59f646ae028db6fa245febc6e0f4c04",
+  dataType: "json",
+  data: { "state": $("#state").val() },
+  success: function(data, status) {
+     console.log(data);
+  },
+  error: function(err) {
+    console.log(err)
+  },
+  complete: function() {
+    apiapi.innerHTML= data;
   }
-
-
-// Send request
-request.send();
+});

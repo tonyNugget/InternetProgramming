@@ -1,0 +1,5 @@
+[25-Feb-2019 22:39:20 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/php example/ass.php on line 24
+[25-Feb-2019 22:40:20 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/php example/ass.php on line 25
+[25-Feb-2019 22:48:29 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ',' or ';' in /home/ubuntu/workspace/php example/ass.php on line 26
+[25-Feb-2019 23:28:14 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/php example/garbage.php on line 21
+[25-Feb-2019 23:28:28 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/php example/garbage.php on line 21

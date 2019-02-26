@@ -1,0 +1,142 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>AJAX: Sign Up Page</title>
+  <link href="./styles.css" rel="stylesheet" type="text/css">
+  
+  <!--BOOTSTRAP-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  
+  
+</head>
+
+<body id="dummybodyid">
+  <h1> Sign Up Form </h1>
+<div class="container-fluid">
+  <form class="info">
+    <fieldset>
+      <legend>Sign Up</legend>
+      <div><label>First Name:</label><input type="text"></div>
+      <div><label>Last Name:</label><input type="text"></div>
+      <div><label>Email:</label><input type="text"></div>
+      <div><label>Phone Number:</label><input type="text"></div>
+      <div id="zipArea" ><label>Zip Code:</label><input id="zipData" type="text"></div>
+      <div><label id="city">City:</label><div id="city"></div></div>
+      <div><label id="lat">Latitude:</label></div>
+      <div><label id="long">Longitude:</label></div>
+      <div><label id="state">State:</label><input id="stateInput" type="text"></div>
+      <div><label>Select a County:</label><select id="county">
+
+          
+      </select></div>
+      <div><label>Desired Username: ("bobby" is taken)</label><input id="usr" type="text"></div>
+      <div><label>Password:</label><input id="pw" type="password"></div>
+      <div><label>Type Password Again:</label><input id="pw2" type="password"></div>
+      <div><input id="button" type="submit" value="Sign up!"></div>
+    </fieldset>
+  </form>
+  </div>
+  <script src="./JQuery.js"></script>
+  <script>
+//   https://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php?zip=93955
+// https://itcdland.csumb.edu/~milara/ajax/countyList.php?state=ca
+ 
+  
+  $("#zipData").change(cityUpdate);
+  $("#stateInput").change(stateUpdate);
+  $("#usr").change(userName);
+  
+  
+  var takenNames = ["name1", "bobby", "schteve"];
+  
+  var btn = document.getElementById("button");
+  
+  
+  
+  function cityUpdate(){
+     $.ajax({
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+                dataType: "json",
+                data: {
+                     'zip': $("#zipData").val()
+                },
+                success: function(data){
+                    //console.log(data);
+                    if(data === false){
+                      $("#zipData").after("<label id='error'>   Zip code not found!</label>")
+                    }
+                    else{
+                      $("#error").remove();
+                      $("#city").html("City: " + data["city"]);
+                      $("#lat").html("Latitude: " + data["latitude"]);
+                      $("#long").html("Longitude: " + data["longitude"]);
+            
+                    }
+                }
+        });
+  }
+  function stateUpdate(){
+    $.ajax({
+                type: "GET",
+                url: "http://itcdland.csumb.edu/~milara/ajax/countyList.php?",
+                dataType: "json",
+                data: {
+                     'state': $("#stateInput").val()
+                },
+                success: function(data){
+                    //console.log(data);
+                    for(var i = 0; i < data.length; i++){
+                      $("#county").append("<option>" + data[i]["county"] + "</option>");
+                    }
+                }
+        });
+  }
+  function userName(){
+    var name = $("#usr").val();
+    for(var i = 0; i < takenNames.length; i++){
+      if(name === takenNames[i]){
+        $("#red").remove();
+        $("#green").remove();
+        $("#usr").after("<label id='red'>THIS USERNAME IS ALREADY TAKEN! try again :)</label>");
+        return;
+      }
+    }
+    for(var i = 0; i < takenNames.length; i++){
+      if(name != takenNames[i]){
+        $("#red").remove();
+        $("#green").remove();
+        $("#usr").after("<label id='green'>Username available!</label>");
+        return;
+      }
+    }
+  }
+  
+  
+  $(document).ready(function() {
+    $("#button").click(function(){
+        var p1 = $("#pw").val();
+        var p2 = $("#pw2").val();
+      
+        if(p1 != p2){
+          $("#false").remove;
+          $("#true").remove;
+          $("#pw2").after("<label id='false' >Passwords dont match</label>");
+        }
+        else{
+          $("#true").remove;
+          $("#false").remove;
+          $("#pw2").after("<label id='true' >Passwords match</label>");
+        }
+    }); 
+});
+  
+  
+
+  </script>
+  
+</body>
+
+</html>
