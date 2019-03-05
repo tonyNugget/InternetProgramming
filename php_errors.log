@@ -3,3 +3,232 @@
 [25-Feb-2019 22:48:29 UTC] PHP Parse error:  syntax error, unexpected 'for' (T_FOR), expecting ',' or ';' in /home/ubuntu/workspace/php example/ass.php on line 26
 [25-Feb-2019 23:28:14 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/php example/garbage.php on line 21
 [25-Feb-2019 23:28:28 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/php example/garbage.php on line 21
+[03-Mar-2019 06:51:42 UTC] PHP Fatal error:  Call to undefined function search() in /home/ubuntu/workspace/Lab05/api.php on line 51
+[03-Mar-2019 06:51:42 UTC] PHP Stack trace:
+[03-Mar-2019 06:51:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 20:26:24 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 52
+[03-Mar-2019 20:26:24 UTC] PHP Stack trace:
+[03-Mar-2019 20:26:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 20:26:24 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:52
+[03-Mar-2019 20:26:24 UTC] PHP Warning:  json_encode() expects parameter 2 to be long, array given in /home/ubuntu/workspace/Lab05/api.php on line 55
+[03-Mar-2019 20:26:24 UTC] PHP Stack trace:
+[03-Mar-2019 20:26:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 20:26:24 UTC] PHP   2. json_encode() /home/ubuntu/workspace/Lab05/api.php:55
+[03-Mar-2019 20:26:33 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 52
+[03-Mar-2019 20:26:33 UTC] PHP Stack trace:
+[03-Mar-2019 20:26:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 20:26:33 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:52
+[03-Mar-2019 20:26:33 UTC] PHP Warning:  json_encode() expects parameter 2 to be long, array given in /home/ubuntu/workspace/Lab05/api.php on line 55
+[03-Mar-2019 20:26:33 UTC] PHP Stack trace:
+[03-Mar-2019 20:26:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 20:26:33 UTC] PHP   2. json_encode() /home/ubuntu/workspace/Lab05/api.php:55
+[03-Mar-2019 20:26:37 UTC] PHP Warning:  json_encode() expects parameter 2 to be long, array given in /home/ubuntu/workspace/Lab05/api.php on line 55
+[03-Mar-2019 20:26:37 UTC] PHP Stack trace:
+[03-Mar-2019 20:26:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 20:26:37 UTC] PHP   2. json_encode() /home/ubuntu/workspace/Lab05/api.php:55
+[03-Mar-2019 20:29:51 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 52
+[03-Mar-2019 20:29:51 UTC] PHP Stack trace:
+[03-Mar-2019 20:29:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 20:29:51 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:52
+[03-Mar-2019 21:14:22 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 52
+[03-Mar-2019 21:14:22 UTC] PHP Stack trace:
+[03-Mar-2019 21:14:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:14:22 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:52
+[03-Mar-2019 21:14:50 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 52
+[03-Mar-2019 21:14:50 UTC] PHP Stack trace:
+[03-Mar-2019 21:14:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:14:50 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:52
+[03-Mar-2019 21:15:10 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 52
+[03-Mar-2019 21:15:10 UTC] PHP Stack trace:
+[03-Mar-2019 21:15:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:15:10 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:52
+[03-Mar-2019 21:15:11 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 52
+[03-Mar-2019 21:15:11 UTC] PHP Stack trace:
+[03-Mar-2019 21:15:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:15:11 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:52
+[03-Mar-2019 21:17:24 UTC] PHP Warning:  array_pop() expects exactly 1 parameter, 2 given in /home/ubuntu/workspace/Lab05/api.php on line 55
+[03-Mar-2019 21:17:24 UTC] PHP Stack trace:
+[03-Mar-2019 21:17:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:17:24 UTC] PHP   2. array_pop() /home/ubuntu/workspace/Lab05/api.php:55
+[03-Mar-2019 21:18:14 UTC] PHP Fatal error:  Only variables can be passed by reference in /home/ubuntu/workspace/Lab05/api.php on line 55
+[03-Mar-2019 21:19:12 UTC] PHP Warning:  array_pop() expects parameter 1 to be array, null given in /home/ubuntu/workspace/Lab05/api.php on line 55
+[03-Mar-2019 21:19:12 UTC] PHP Stack trace:
+[03-Mar-2019 21:19:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:19:12 UTC] PHP   2. array_pop() /home/ubuntu/workspace/Lab05/api.php:55
+[03-Mar-2019 21:32:22 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:32:22 UTC] PHP Stack trace:
+[03-Mar-2019 21:32:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:32:22 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:32:29 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:32:29 UTC] PHP Stack trace:
+[03-Mar-2019 21:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:32:29 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:32:31 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:32:31 UTC] PHP Stack trace:
+[03-Mar-2019 21:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:32:31 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:34:13 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:34:13 UTC] PHP Stack trace:
+[03-Mar-2019 21:34:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:34:13 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:35:21 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:35:21 UTC] PHP Stack trace:
+[03-Mar-2019 21:35:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:35:21 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:35:22 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:35:22 UTC] PHP Stack trace:
+[03-Mar-2019 21:35:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:35:22 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:35:22 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:35:22 UTC] PHP Stack trace:
+[03-Mar-2019 21:35:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:35:22 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:35:22 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:35:22 UTC] PHP Stack trace:
+[03-Mar-2019 21:35:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:35:22 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:35:23 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:35:23 UTC] PHP Stack trace:
+[03-Mar-2019 21:35:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:35:23 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:36:22 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:36:22 UTC] PHP Stack trace:
+[03-Mar-2019 21:36:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:36:22 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[03-Mar-2019 21:38:22 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 53
+[03-Mar-2019 21:38:22 UTC] PHP Stack trace:
+[03-Mar-2019 21:38:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[03-Mar-2019 21:38:22 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:53
+[04-Mar-2019 00:42:14 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 00:42:14 UTC] PHP Stack trace:
+[04-Mar-2019 00:42:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 00:42:14 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 00:42:17 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 00:42:17 UTC] PHP Stack trace:
+[04-Mar-2019 00:42:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 00:42:17 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 01:37:17 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 01:37:17 UTC] PHP Stack trace:
+[04-Mar-2019 01:37:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 01:37:17 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 01:37:55 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 01:37:55 UTC] PHP Stack trace:
+[04-Mar-2019 01:37:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 01:37:55 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:42:06 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:42:06 UTC] PHP Stack trace:
+[04-Mar-2019 23:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:42:06 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:42:06 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:42:06 UTC] PHP Stack trace:
+[04-Mar-2019 23:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:42:06 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:42:06 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:42:06 UTC] PHP Stack trace:
+[04-Mar-2019 23:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:42:06 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:42:06 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:42:06 UTC] PHP Stack trace:
+[04-Mar-2019 23:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:42:06 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:42:06 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:42:06 UTC] PHP Stack trace:
+[04-Mar-2019 23:42:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:42:06 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:42:07 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:42:07 UTC] PHP Stack trace:
+[04-Mar-2019 23:42:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:42:07 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:43:52 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:43:52 UTC] PHP Stack trace:
+[04-Mar-2019 23:43:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:43:52 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:43:53 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:43:53 UTC] PHP Stack trace:
+[04-Mar-2019 23:43:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:43:53 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:45:00 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[04-Mar-2019 23:45:00 UTC] PHP Stack trace:
+[04-Mar-2019 23:45:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[04-Mar-2019 23:45:00 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[04-Mar-2019 23:52:10 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 63
+[04-Mar-2019 23:52:10 UTC] PHP Stack trace:
+[04-Mar-2019 23:52:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 00:03:10 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 63
+[05-Mar-2019 00:03:10 UTC] PHP Stack trace:
+[05-Mar-2019 00:03:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 00:03:10 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 00:03:10 UTC] PHP Stack trace:
+[05-Mar-2019 00:03:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 00:03:10 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 00:26:10 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 62
+[05-Mar-2019 00:26:10 UTC] PHP Stack trace:
+[05-Mar-2019 00:26:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 00:51:06 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 64
+[05-Mar-2019 00:51:06 UTC] PHP Stack trace:
+[05-Mar-2019 00:51:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 00:51:06 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 00:51:06 UTC] PHP Stack trace:
+[05-Mar-2019 00:51:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 00:51:06 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 01:16:00 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 63
+[05-Mar-2019 01:16:00 UTC] PHP Stack trace:
+[05-Mar-2019 01:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 01:16:00 UTC] PHP   2. rand() /home/ubuntu/workspace/Lab05/api.php:63
+[05-Mar-2019 01:16:00 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 01:16:00 UTC] PHP Stack trace:
+[05-Mar-2019 01:16:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 01:16:00 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 01:40:53 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 63
+[05-Mar-2019 01:40:53 UTC] PHP Stack trace:
+[05-Mar-2019 01:40:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 01:40:53 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 01:40:53 UTC] PHP Stack trace:
+[05-Mar-2019 01:40:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 01:40:53 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 02:05:46 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 02:05:46 UTC] PHP Stack trace:
+[05-Mar-2019 02:05:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 02:05:46 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 02:30:39 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 62
+[05-Mar-2019 02:30:39 UTC] PHP Stack trace:
+[05-Mar-2019 02:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 02:30:39 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 02:30:39 UTC] PHP Stack trace:
+[05-Mar-2019 02:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 02:30:39 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 02:55:34 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 63
+[05-Mar-2019 02:55:34 UTC] PHP Stack trace:
+[05-Mar-2019 02:55:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 03:20:28 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 65
+[05-Mar-2019 03:20:28 UTC] PHP Stack trace:
+[05-Mar-2019 03:20:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 03:45:22 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 63
+[05-Mar-2019 03:45:22 UTC] PHP Stack trace:
+[05-Mar-2019 03:45:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 04:10:16 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 62
+[05-Mar-2019 04:10:16 UTC] PHP Stack trace:
+[05-Mar-2019 04:10:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 04:35:09 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/Lab05/api.php on line 64
+[05-Mar-2019 04:35:09 UTC] PHP Stack trace:
+[05-Mar-2019 04:35:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 04:35:09 UTC] PHP   2. chr() /home/ubuntu/workspace/Lab05/api.php:64
+[05-Mar-2019 06:41:55 UTC] PHP Parse error:  syntax error, unexpected 'TO' (T_STRING) in /home/ubuntu/workspace/Lab05/api.php on line 50
+[05-Mar-2019 06:41:56 UTC] PHP Parse error:  syntax error, unexpected 'TO' (T_STRING) in /home/ubuntu/workspace/Lab05/api.php on line 50
+[05-Mar-2019 06:41:57 UTC] PHP Parse error:  syntax error, unexpected 'TO' (T_STRING) in /home/ubuntu/workspace/Lab05/api.php on line 50
+[05-Mar-2019 07:00:00 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 07:00:00 UTC] PHP Stack trace:
+[05-Mar-2019 07:00:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 07:00:00 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 07:00:07 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 07:00:07 UTC] PHP Stack trace:
+[05-Mar-2019 07:00:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 07:00:07 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 07:10:15 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 07:10:15 UTC] PHP Stack trace:
+[05-Mar-2019 07:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 07:10:15 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51
+[05-Mar-2019 07:10:47 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/Lab05/api.php on line 51
+[05-Mar-2019 07:10:47 UTC] PHP Stack trace:
+[05-Mar-2019 07:10:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab05/api.php:0
+[05-Mar-2019 07:10:47 UTC] PHP   2. strpos() /home/ubuntu/workspace/Lab05/api.php:51

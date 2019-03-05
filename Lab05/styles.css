@@ -1,0 +1,49 @@
+/*
+Anthony Zerka
+CST 336 - Lab 05
+CSS file
+*/
+body{
+    background-image: url("./php.png");
+    text-align: center;
+}
+.title{
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid;
+    border-radius: 5em;
+}
+#line{
+    border: 2px solid lightgreen;
+}
+#btn{
+    width:15em;
+    font-size: 20px;
+    height: 3em;
+    color:green;
+    background-color: lightgreen;
+    font-family: ariel fantasy;
+    border:solid black;
+}
+#foot{
+    text-align: center;
+    position:fixed;
+     bottom:0;
+     width:100%;
+     z-index:-99;
+}
+#rand{
+    color:lightgreen;
+}
+#rando{
+    font-size: 20px;
+    color:green;
+    background-color: lightgreen;
+    font-family: ariel fantasy;
+    border: 2px solid black;
+}
+#rpw{
+    color:orange;
+}

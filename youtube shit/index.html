@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Practice 5: Like/Dislike Video App</title>
+  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+</head>
+<body>
+
+  <!--Embed here any YouTube video using the "iframe" tag -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-Tk-U3cmQG8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <thing>
+     
+       <br>
+  <button id="like">
+    <img src="img/like.png" alt="Like button" width="35" />
+  <div></div>
+  </button>
+  <button id="dislike">
+    <img src="img/dislike.png" alt="Dislike button" width="35" />
+      <div2></div2>
+  </button>
+  <!--The number of likes is displayed within the span below-->
+
+     
+       <div3><br>Comments:<br></div3>
+ </thing>
+
+</body>
+<script>
+    
+   $("#like").click(function(){
+             $.ajax({
+            type: "get",
+            url:  "https://cst336.herokuapp.com/projects/api/videoLikesAPI.php",
+            dataType: "json",
+            data: { "videoId": "-Tk-U3cmQG8" ,
+                "action" : "like"
+            },  //   <----AS THE VALUE, ENTER THE YOUTUBE VIDEO ID
+            
+            success: function(data,status) {
+
+                for(var i = 0; i < 5; i++){
+                    $("div").html(data.likes);
+                }
+                
+              },
+              complete: function(data,status) { 
+                  console.log(status);
+                  console.log(data);
+                 
+              }
+         });
+         });
+         
+            $("#dislike").click(function(){
+             $.ajax({
+            type: "get",
+            url:  "https://cst336.herokuapp.com/projects/api/videoLikesAPI.php",
+            dataType: "json",
+            data: { "videoId": "-Tk-U3cmQG8" ,
+                "action" : "dislike"
+            },  //   <----AS THE VALUE, ENTER THE YOUTUBE VIDEO ID
+            
+            success: function(data,status) {
+
+                for(var i = 0; i < 5; i++){
+                    $("div2").html(data.dislikes);
+                }
+                
+              },
+              complete: function(data,status) { 
+                  console.log(status);
+                  console.log(data);
+                 
+              }
+         });
+         });
+    
+    
+    $(document).ready(function(){
+            
+          //This AJAX call returns a number of "likes" and "dislikes"
+  //Enter a YouTube video id for "data".
+	$.ajax({
+            type: "get",
+            url:  "https://cst336.herokuapp.com/projects/api/videoLikesAPI.php",
+            dataType: "json",
+            data: { "videoId": "-Tk-U3cmQG8" },  //   <----AS THE VALUE, ENTER THE YOUTUBE VIDEO ID
+            
+            success: function(data,status) {
+                 
+                 $("div").html(data.likes);
+                 $("div2").html(data.dislikes);
+                 callComments("comments");
+              },
+              complete: function(data,status) { 
+                  console.log(status);
+                  console.log(data);
+              }
+         });
+         
+         function callComments(action){
+             $.ajax({
+            type: "get",
+            url:  "https://cst336.herokuapp.com/projects/api/videoLikesAPI.php",
+            dataType: "json",
+            data: { "videoId": "-Tk-U3cmQG8" ,
+                "action" : action
+            },  //   <----AS THE VALUE, ENTER THE YOUTUBE VIDEO ID
+            
+            success: function(data,status) {
+
+                for(var i = 0; i < 5; i++){
+                    $("div3").append("<br>Comment #"+i+" : "+ data[i].comment + "<br>");
+                }
+                
+              },
+              complete: function(data,status) { 
+                  console.log(status);
+                  console.log(data);
+                 
+              }
+         });
+         }
+         
+    });
+    
+   
+         
+   
+    
+    
+
+	
+
+	
+</script>
+</html>

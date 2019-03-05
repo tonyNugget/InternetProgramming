@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+Anthony Zerka
+CST 336 - Lab 05
+-->
+<html>
+    <head>
+        <title>Lab 05</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="">
+        <!--CSS Link-->
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+        <!--BootStrap (I didnt use it because it looks horrible - compared to my fantastic CSS :)...) -->
+        <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    </head>
+    <body>
+        <top class="title">Login Page</top><hr id="line">
+        <form>
+            <label>Username: </label>
+            <input id="usr" type="text" name="usr">
+            <br><br>
+            <label>Password: </label>
+            <input id="pw" type="password" name="pw">
+            <br><br>
+            <label id="rand">Cant think of a password? Press <button id="rando" type="button">Here</button> to generate a random password.</label
+            ><br>
+            <pw id="rpw"></pw>
+            <br><br>
+            <button id="btn" type="button">
+                Login
+            </button>            
+        </form>
+        <dataField id="data">
+            <usrCheck id="usrCheck"></usrCheck>
+            <pwCheck id="pwCheck"></pwCheck>
+        </dataField>
+        <footer id="foot">
+            <hr id="line">
+            <h3>Anthony Zerka<br>CST336 - Lab 05</h3>
+        </footer>
+        <script src="./JQuery.js"></script>
+        <script>
+           var button = document.getElementById("btn");
+            //var for random password
+            var randomPass = "";
+            //action performed when "login" is pressed
+            $("#btn").click( function(z) {
+              //reset html
+              $("#usrCheck").empty();
+              $("#pwCheck").empty();
+              $("#rpw").empty();
+            $.ajax({
+                    type: "POST",
+                    url: "./api.php",
+                    dataType: "json",
+                    data: {
+                       'usr': $("#usr").val(),
+                       'pw': $("#pw").val()
+                    },
+                    success: function(data){
+                        console.log(data);
+                        randomPass = data[length-1];
+                        //check to see if username is taken
+                        for(var i = 0; i < data.length; i++){
+                            if($("#usr").val() == data[i]){
+                                $("#usrCheck").html("<br>The username: \"" + data[i] + "\" is in use. please choose another username.<br><br>");
+                                //styles
+                                $("#usrCheck").css('color', 'white');
+                                $("#usrCheck").css('background-color', 'red');
+                            }
+                        }
+                        //check to see if username is in password
+                        for(var i = 0; i < data.length; i++){
+                            if(data[i] === "pwError"){
+                             $("#pwCheck").html("username cannot be in the password! change it!");
+                                //styles
+                                $("#pwCheck").css('color', 'white');
+                                $("#pwCheck").css('background-color', 'red');
+                            }
+                        }    
+                        },
+                        complete: function( status) { //optional, used for debugging purposes
+                        console.log( status);
+                    }
+                
+                });
+        });
+            //action performed when "here" button is pressed
+            $("#rando").click( function(z) {
+              //reset html
+              //$("#usrCheck").empty();
+              //$("#pwCheck").empty();
+              $("#rpw").empty();
+            $.ajax({
+                    type: "POST",
+                    url: "./api.php",
+                    dataType: "json",
+                    data: {},
+                    success: function(data){
+                        console.log(data);
+                        //get random password from array and display in html
+                        randomPass = data[data.length-1];
+                        $("#rpw").html("Random Password: "+randomPass);
+                        },
+                        complete: function( status) { //optional, used for debugging purposes
+                        console.log( status);
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
