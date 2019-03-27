@@ -9,9 +9,12 @@ $namedParameters = array();
 
 //If something is specifically searched for
 if(!empty($_GET['product'])){
-    $sql .= " AND productName LIKE :productName";
+    $sql .= " AND productName LIKE :productName OR productDescription LIKE :productDescription";
     $namedParameters[":productName"] = "%" . $_GET['product'] . "%";
+    $namedParameters[":productDescription"] = "%" . $_GET['product'] . "%";
 }
+    $sql .= " AND productDescription LIKE :productDescription";
+    $namedParameters[":productDescription"] = "%" . $_GET['product'] . "%";
 
 if(!empty($_GET['category'])){
     $sql .= " AND catId = :categoryId";
