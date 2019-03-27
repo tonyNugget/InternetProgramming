@@ -1,0 +1,4 @@
+zerka:~/workspace (master) $ heroku
+ config:get JAWSDB_MARIA_URL --app 
+zerka-cst336                       
+mysql://xlf7ik1vfl4jtj6g:uc00axtag34jtali@w29ifufy55ljjmzq.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/lyvzoz2otqrput6h
