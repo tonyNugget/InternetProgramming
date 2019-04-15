@@ -1,0 +1,20 @@
+body{
+    text-align :center;
+    background:lightgreen;
+}
+
+.jumbotron{
+    color : purple;
+}
+
+#results{
+    color:purple;
+    /*background:lightgreen;*/
+ border: dotted 2px;
+ padding : 1em;
+  text-align :left;
+}
+
+.modal{
+    background:lightgrey;
+}

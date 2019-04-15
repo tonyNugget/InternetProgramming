@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+        <meta charset="UTF-8">
+    <link href="./css.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+ <table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td id="e">Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>new</td>
+    <td>tableh</td>
+    <td id="puthere"></td>
+  </tr>
+</table> 
+
+    <forms>
+        <br>
+        <input type="input" id="typing" enter st00f here>
+        <button type="button"  id="btn">click</button><br>
+        <stuff id='here'>g</stuff>
+    </forms>
+    </body>
+    
+        
+    <!--<thing id="ye"></thing>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!--<script src="./JQuery.js"></script>-->
+    <script>
+    var data = document.getElementById("typing").value;
+        $(document).ready(function() {
+            
+             $.ajax({
+                type: "GET",
+                url: "./populate.php",
+                dataType: "json",
+                data: {
+                    
+                },
+                success: function(data, status) {
+                    console.log(data);
+                    console.log(status);
+                     data.forEach(function(key){
+                           $("here").append("<thing>" + data + "<thing>"); 
+                        });
+                    
+                },
+                error: function(err) {
+                    console.log(arguments);
+                },
+                complete: function(data, status) {
+                    // Called whether success or error
+                    console.log(status);
+                }
+            });
+            
+            
+            console.log("yo");
+            
+                        //This is for searching products (button click)
+            
+
+            
+          
+            
+        }); 
+        $("#btn").on("click", function(){
+
+               document.getElementById("here").innerHTML = document.getElementById("typing").value;
+               document.getElementById("puthere").innerHTML = document.getElementById("typing").value;
+               document.getElementById("e").innerHTML = "damn it Jill!";
+               
+                $.ajax({
+                type: "GET",
+                url: "./populate.php",
+                dataType: "json",
+                data: {
+                    
+                },
+                success: function(data, status) {
+                    console.log(data);
+                    console.log(status);
+                     data.forEach(function(key){
+                         console.log("huh?");
+                           $("#here").append("<thing>" + key['productId'] + " " + key['productName'] + "<thing><br>"); 
+                           
+                        });
+                    document.getElementById("puthere").innerHTML = data[1]['productName'];
+                },
+                error: function(err) {
+                    console.log(arguments);
+                },
+                complete: function(data, status) {
+                    // Called whether success or error
+                    console.log(status);
+                }
+            });
+            
+               
+               
+               
+            });
+    </script>
+</html>

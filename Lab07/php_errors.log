@@ -1,0 +1,102 @@
+[15-Apr-2019 03:40:34 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:40:34 UTC] PHP Stack trace:
+[15-Apr-2019 03:40:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:40:34 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:40:34 UTC] PHP Stack trace:
+[15-Apr-2019 03:40:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:40:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 03:40:34 UTC] PHP Stack trace:
+[15-Apr-2019 03:40:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:41:34 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:41:34 UTC] PHP Stack trace:
+[15-Apr-2019 03:41:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:41:34 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:41:34 UTC] PHP Stack trace:
+[15-Apr-2019 03:41:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:41:34 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 03:41:34 UTC] PHP Stack trace:
+[15-Apr-2019 03:41:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:57:16 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:57:16 UTC] PHP Stack trace:
+[15-Apr-2019 03:57:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:57:16 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:57:16 UTC] PHP Stack trace:
+[15-Apr-2019 03:57:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:57:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 03:57:16 UTC] PHP Stack trace:
+[15-Apr-2019 03:57:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:59:26 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:59:26 UTC] PHP Stack trace:
+[15-Apr-2019 03:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:59:26 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 03:59:26 UTC] PHP Stack trace:
+[15-Apr-2019 03:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 03:59:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 03:59:26 UTC] PHP Stack trace:
+[15-Apr-2019 03:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:00:10 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:00:10 UTC] PHP Stack trace:
+[15-Apr-2019 04:00:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:00:10 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:00:10 UTC] PHP Stack trace:
+[15-Apr-2019 04:00:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:00:10 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 04:00:10 UTC] PHP Stack trace:
+[15-Apr-2019 04:00:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:04:13 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:04:13 UTC] PHP Stack trace:
+[15-Apr-2019 04:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:04:13 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:04:13 UTC] PHP Stack trace:
+[15-Apr-2019 04:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:04:13 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 04:04:13 UTC] PHP Stack trace:
+[15-Apr-2019 04:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:04:56 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:04:56 UTC] PHP Stack trace:
+[15-Apr-2019 04:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:04:56 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:04:56 UTC] PHP Stack trace:
+[15-Apr-2019 04:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:04:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 04:04:56 UTC] PHP Stack trace:
+[15-Apr-2019 04:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:05:12 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:05:12 UTC] PHP Stack trace:
+[15-Apr-2019 04:05:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:05:12 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 3
+[15-Apr-2019 04:05:12 UTC] PHP Stack trace:
+[15-Apr-2019 04:05:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:05:12 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 4
+[15-Apr-2019 04:05:12 UTC] PHP Stack trace:
+[15-Apr-2019 04:05:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/admin/inserts.php:0
+[15-Apr-2019 04:05:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/Lab07/admin/inserts.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/admin/inserts.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 45
+[15-Apr-2019 04:05:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/Lab07/admin/inserts.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/admin/inserts.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 45
+[15-Apr-2019 04:07:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/Lab07/admin/inserts.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/admin/inserts.php(45): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 45
+[15-Apr-2019 04:09:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/Lab07/admin/inserts.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/admin/inserts.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 45
+[15-Apr-2019 04:11:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0' at line 1' in /home/ubuntu/workspace/Lab07/admin/inserts.php:45
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/admin/inserts.php(45): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 45
+[15-Apr-2019 04:14:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/ubuntu/workspace/Lab07/admin/inserts.php:52
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/admin/inserts.php(52): PDOStatement->fetchAll(2)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/admin/inserts.php on line 52

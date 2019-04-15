@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Midterm match</title>
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <navBar class="nav">
+                <ul><a href="match.html" id="current">Match</a></ul>
+                <ul><a href="history.html">History</a></ul>
+                                <ul><a href="likes.html" >Likes</a></ul>
+            </navBar>
+        <h1 id="header">Match</h1>
+        <data id="stuff">
+             <im id="im"></im>
+        <br>
+            <info id="userInfo"></info>
+        </data>
+       <br>
+        <footer id="select">
+            <button id="btn" type="button"><img src="./like.png" alt="like" height="42" width="42"></button>
+            <button id="btn2" type="button"><img src="./meh.png" alt="meh" height="42" width="42"></button>
+            <button id="btn3" type="button"><img src="./dislike.png" alt="dislike" height="42" width="42"></button>
+        </footer>
+    </body>
+    <script>
+    var counter = 0;
+
+        $(document).ready(function() {
+            
+             $.ajax({
+                type: "GET",
+                url: "./getMatch.php",
+                dataType: "json",
+                data: {
+                    
+                },
+                success: function(data, status) {
+                    console.log(data);
+                    console.log(status);
+                    //  data.forEach(function(key){
+                    //       $("here").append("<thing>" + data + "<thing>"); 
+                    //     });
+                    console.log(counter);
+                    document.getElementById("im").innerHTML = "<img src='" + data[counter]['picture_url'] + "' alt='profilePic' height='600' width='600'>";
+                    document.getElementById("userInfo").innerHTML = data[counter]['about_me'];
+                },
+                error: function(err) {
+                    console.log(arguments);
+                },
+                complete: function(data, status) {
+                    // Called whether success or error
+                    console.log(status);
+                }
+            });
+
+            
+            
+        });
+        
+        $("#btn").on("click", function(){
+
+             $.ajax({
+                type: "GET",
+                url: "./getUser.php",
+                dataType: "json",
+                data: {
+                    
+                },
+                success: function(data, status) {
+                    console.log(data);
+                    console.log(status);
+                    
+                if(counter < data.length-1){
+                  counter = counter +1;
+                    }
+                    else{
+                         counter = data.length-1;
+                        $("#select").html("END OF LIST <a href='./history.html'><button id='go' type='submit'>Okay</button></a>");
+                    }
+                    
+                    //  data.forEach(function(key){
+                    //       $("here").append("<thing>" + data + "<thing>"); 
+                    //     });
+                    console.log(counter);
+                    document.getElementById("im").innerHTML = "<img src='" + data[counter]['picture_url'] + "' alt='profilePic' height='600' width='600'>";
+                    // document.getElementById("userInfo").innerHTML = data[counter]['about_me'];
+                },
+                error: function(err) {
+                    console.log(arguments);
+                },
+                complete: function(data, status) {
+                    // Called whether success or error
+                    console.log(status);
+                }
+            });
+        //   document.getElementById("userInfo").innerHTML = counter;
+        });
+        $("#btn2").on("click", function(){
+           
+             $.ajax({
+                type: "GET",
+                url: "./getUser.php",
+                dataType: "json",
+                data: {
+                    
+                },
+                success: function(data, status) {
+                    console.log(data);
+                    console.log(status);
+                    
+                    if(counter < data.length-1){
+                  counter = counter +1;
+                    }
+                    else{
+                        counter = data.length-1;
+                        $("#select").html("END OF LIST <a href='./history.html'><button id='go' type='submit'>Okay</button></a>");
+                    }
+                    
+                    //  data.forEach(function(key){
+                    //       $("here").append("<thing>" + data + "<thing>"); 
+                    //     });
+                    console.log(counter);
+                    document.getElementById("im").innerHTML = "<img src='" + data[counter]['picture_url'] + "' alt='profilePic' height='600' width='600'>";
+                    // document.getElementById("userInfo").innerHTML = data[counter]['about_me'];
+                },
+                error: function(err) {
+                    console.log(arguments);
+                },
+                complete: function(data, status) {
+                    // Called whether success or error
+                    console.log(status);
+                }
+            });
+        //   document.getElementById("userInfo").innerHTML = counter;
+        });
+        $("#btn3").on("click", function(){
+ 
+             $.ajax({
+                type: "GET",
+                url: "./getUser.php",
+                dataType: "json",
+                data: {
+                    
+                },
+                success: function(data, status) {
+                    console.log(data);
+                    console.log(status);
+                    
+                if(counter < data.length-1){
+                  counter = counter +1;
+                    }
+                    else{
+                         counter = data.length-1;
+                        $("#select").html("END OF LIST <a href='./history.html'><button id='go' type='submit'>Okay</button></a>");
+                    }
+                    
+                    //  data.forEach(function(key){
+                    //       $("here").append("<thing>" + data + "<thing>"); 
+                    //     });
+                    console.log(counter);
+                    document.getElementById("im").innerHTML = "<img src='" + data[counter]['picture_url'] + "' alt='profilePic' height='600' width='600'>";
+                    // document.getElementById("userInfo").innerHTML = data[counter]['about_me'];
+                },
+                error: function(err) {
+                    console.log(arguments);
+                },
+                complete: function(data, status) {
+                    // Called whether success or error
+                    console.log(status);
+                }
+            });
+        //   document.getElementById("userInfo").innerHTML = counter;
+        });
+            
+            
+    
+    $("#go").on("click", function(){
+        
+    });
+    </script>
+</html>

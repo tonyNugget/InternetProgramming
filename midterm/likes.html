@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Midterm ppl who like me</title>
+        <link href="./styles.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <navBar class="nav">
+                <ul><a href="match.html" >Match</a></ul>
+                <ul><a href="history.html">History</a></ul>
+                <ul><a href="likes.html" id="current">Likes</a></ul>
+            </navBar>
+        <h1 id="header">People who like me</h1>
+        <data id="stuff">
+             <im id="im"></im>
+        <br>
+            <info id="userInfo"></info>
+        </data>
+       <br>
+        <footer id="select">
+
+        </footer>
+    </body>
+    <script>
+    var counter = 0;
+
+        $(document).ready(function() {
+            
+             $.ajax({
+                type: "GET",
+                url: "./likes.php",
+                dataType: "json",
+                data: {
+                    
+                },
+                success: function(data, status) {
+                    console.log(data);
+                    console.log(status);
+                    //  data.forEach(function(key){
+                    //       $("here").append("<thing>" + data + "<thing>"); 
+                    //     });
+                    
+                    for(var i = 0; i < data.length-1; i++){
+                        $("#userInfo").append(data[i]['username'] + "<br>");
+                    }
+                },
+                error: function(err) {
+                    console.log(arguments);
+                },
+                complete: function(data, status) {
+                    // Called whether success or error
+                    console.log(status);
+                }
+            });
+
+            
+            
+        });
+        
+      
+    </script>
+</html>
