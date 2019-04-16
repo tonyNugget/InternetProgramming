@@ -4,12 +4,14 @@
 //Lab06
 
 function getDatabaseConnection($dbname = 'heroku_cc2133e1153d20a'){  //if there is nothing sent as a parameter then ""ottermart" will be default db
-    $host = '127.0.0.1'; // CLoud9
-    $username = 'zerka';
-    $password = '';
+    $host = 'us-cdbr-iron-east-03.cleardb.net'; // CLoud9
+    $username = 'b915bb1e039f60';
+    $password = '8d949536';
     
     
-    
+//     $cfg['Servers'][$i]['host'] = 'us-cdbr-iron-east-03.cleardb.net';
+// $cfg['Servers'][$i]['user'] = "b915bb1e039f60";//u
+// $cfg['Servers'][$i]['password'] = "8d949536";//p
     
      //when connecting from Heroku
 
