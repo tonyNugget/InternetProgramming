@@ -3,7 +3,7 @@
 //CST 336
 //Lab06
 
-function getDatabaseConnection($dbname = 'user'){  //if there is nothing sent as a parameter then ""ottermart" will be default db
+function getDatabaseConnection($dbname = 'heroku_cc2133e1153d20a'){  //if there is nothing sent as a parameter then ""ottermart" will be default db
     $host = '127.0.0.1'; // CLoud9
     $username = 'zerka';
     $password = '';

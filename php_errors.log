@@ -567,3 +567,23 @@ Stack trace:
 [16-Apr-2019 04:28:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/getSearchResults.php on line 4
 [16-Apr-2019 04:28:40 UTC] PHP Stack trace:
 [16-Apr-2019 04:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/getSearchResults.php:0
+[16-Apr-2019 04:41:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/Lab07/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/login.php on line 41
+[16-Apr-2019 04:41:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/Lab07/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/login.php on line 41
+[16-Apr-2019 04:41:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/Lab07/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/login.php on line 41
+[16-Apr-2019 04:41:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.user' doesn't exist' in /home/ubuntu/workspace/Lab07/login.php:41
+Stack trace:
+#0 /home/ubuntu/workspace/Lab07/login.php(41): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab07/login.php on line 41
