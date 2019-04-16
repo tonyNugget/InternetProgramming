@@ -2,7 +2,7 @@
     session_start();
 
     if (!isset($_SESSION['email'])){
-      header("Location: ../login.html");
+      header("Location: ../index.html");
     } else if (!$_SESSION['isAdmin']) {
         http_response_code(403);
         echo "You are not allowed here";
@@ -76,7 +76,7 @@
                     // console.log(data);
                     // console.log(status);
                      for(var i = 0; i < data.length; i++){
-                           $("#mart").append("<a data-toggle='modal' href='#myModal' onclick='modal("+i+")' id=" +i+ " >" + data[i]["productName"] + "</a>" +  " <button type='button' id = " + i + " >Delete</button> <br>"); 
+                           $("#mart").append("<a data-toggle='modal' href='#myModal' onclick='modal("+i+")' id=" +i+ " >" + data[i]["productName"] + "</a>" +  " <button type='button' class='del' id='" + data[i]["productName"] + "'>Delete</button> <br>"); 
                     }
                          
                      
@@ -140,7 +140,7 @@
             })
             function refresh(){
                 
-                $("#mart").html='';
+                $("#mart").empty()
                 
                  $.ajax({
                 type: "GET",
@@ -153,7 +153,7 @@
                     // console.log(data);
                     // console.log(status);
                      for(var i = 0; i < data.length; i++){
-                           $("#mart").append("<a data-toggle='modal' href='#myModal' onclick='modal("+i+")' id=" +i+ " >" + data[i]["productName"] + "</a>" +  " <button  type='button' id = " + i + " >Delete</button> <br>"); 
+                           $("#mart").append("<a data-toggle='modal' href='#myModal' onclick='modal("+i+")' id=" +i+ " >" + data[i]["productName"] + "</a>" +  " <button  type='button' class='del' id='" + data[i]["productName"] + "' >Delete</button> <br>"); 
                     }
                          
                      
@@ -169,9 +169,40 @@
             });
                 
             }
-          $("btn").on("click", function() {
-                window.location = "../logout.php";
-            })
+          $(document).on("click", '.del', function() {
+            //   alert("schwartzschh");
+                
+                if(window.confirm("Are you sure you want to delete this item?") !== false){
+                    $("#mart").empty()
+                    $.ajax({
+                    type: "POST",
+                    url: "./delete.php",
+                    dataType: "json",
+                    data: {
+                         "insertInto" : $(this).attr("id")
+                    },
+                    success: function(data, status) {
+                        refresh();
+                        // console.log(data);
+                        // console.log(status);
+                        //  for(var i = 0; i < data.length; i++){
+                        //       $("#mart").append("<a data-toggle='modal' href='#myModal' onclick='modal("+i+")' id=" +i+ " >" + data[i]["productName"] + "</a>" +  " <button  type='button' class='del' id= '"+ data[i]["productName"] +"' >Delete</button> <br>"); 
+                        // }
+                             
+                         
+                        
+                    },
+                    error: function(err) {
+                        console.log(arguments);
+                    },
+                    complete: function(data, status) {
+                        // Called whether success or error
+                        console.log(status);
+                    }
+                });
+                }
+               
+            });
         </script>
     </body>
 </html>

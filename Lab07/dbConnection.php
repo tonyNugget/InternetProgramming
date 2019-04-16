@@ -3,9 +3,9 @@
 //CST 336
 //Lab06
 
-function getDatabaseConnection($dbname = 'ottermart2'){  //if there is nothing sent as a parameter then ""ottermart" will be default db
+function getDatabaseConnection($dbname = 'ottermart'){  //if there is nothing sent as a parameter then ""ottermart" will be default db
     $host = 'localhost'; // CLoud9
-    $username = 'zerka';
+    $username = 'root';
     $password = '';
     
     
