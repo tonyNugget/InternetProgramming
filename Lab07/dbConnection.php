@@ -4,7 +4,7 @@
 //Lab06
 
 function getDatabaseConnection($dbname = 'user'){  //if there is nothing sent as a parameter then ""ottermart" will be default db
-    $host = 'localhost'; // CLoud9
+    $host = '127.0.0.1'; // CLoud9
     $username = 'zerka';
     $password = '';
     
