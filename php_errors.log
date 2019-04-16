@@ -558,3 +558,12 @@ Stack trace:
 [15-Apr-2019 22:08:42 UTC] PHP Stack trace:
 [15-Apr-2019 22:08:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/curl example/spotify.php:0
 [15-Apr-2019 22:08:42 UTC] PHP   2. json_decode() /home/ubuntu/workspace/curl example/spotify.php:32
+[16-Apr-2019 04:28:40 UTC] PHP Warning:  include(./dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab07/getSearchResults.php on line 3
+[16-Apr-2019 04:28:40 UTC] PHP Stack trace:
+[16-Apr-2019 04:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/getSearchResults.php:0
+[16-Apr-2019 04:28:40 UTC] PHP Warning:  include(): Failed opening './dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab07/getSearchResults.php on line 3
+[16-Apr-2019 04:28:40 UTC] PHP Stack trace:
+[16-Apr-2019 04:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/getSearchResults.php:0
+[16-Apr-2019 04:28:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab07/getSearchResults.php on line 4
+[16-Apr-2019 04:28:40 UTC] PHP Stack trace:
+[16-Apr-2019 04:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab07/getSearchResults.php:0
