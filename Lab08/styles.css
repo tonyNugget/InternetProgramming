@@ -1,0 +1,30 @@
+
+body{
+    background-color: lightblue;
+}
+
+.top{
+    display:block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#im1 {
+    display: block;
+    text-align: center;
+    column-gap: 10px;
+    margin: 10px;
+}
+#im2 {
+    display: block;
+    text-align: center;
+    column-gap: 10px;
+    margin: 10px;
+}
+#im3 {
+    display: block;
+    text-align: center;
+    column-gap: 10px;
+    margin: 10px;
+}

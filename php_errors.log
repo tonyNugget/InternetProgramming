@@ -593,3 +593,45 @@ Stack trace:
 #1 /home/ubuntu/workspace/Lab07/getSearchResults.php(4): getDatabaseConnection('ottermart')
 #2 {main}
   thrown in /home/ubuntu/workspace/Lab07/dbConnection.php on line 35
+[17-Apr-2019 21:36:28 UTC] PHP Warning:  json_decode() expects parameter 1 to be string, object given in /home/ubuntu/workspace/Lab08/index.php on line 83
+[17-Apr-2019 21:36:28 UTC] PHP Stack trace:
+[17-Apr-2019 21:36:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/index.php:0
+[17-Apr-2019 21:36:28 UTC] PHP   2. json_decode() /home/ubuntu/workspace/Lab08/index.php:83
+[18-Apr-2019 04:44:10 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/Lab08/api.php on line 30
+[18-Apr-2019 04:44:10 UTC] PHP Stack trace:
+[18-Apr-2019 04:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[18-Apr-2019 04:44:28 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/Lab08/api.php on line 30
+[18-Apr-2019 04:44:28 UTC] PHP Stack trace:
+[18-Apr-2019 04:44:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[18-Apr-2019 06:13:48 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/Lab08/api.php on line 30
+[18-Apr-2019 06:13:48 UTC] PHP Stack trace:
+[18-Apr-2019 06:13:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[19-Apr-2019 19:32:30 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/Lab08/api.php on line 30
+[19-Apr-2019 19:32:30 UTC] PHP Stack trace:
+[19-Apr-2019 19:32:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[22-Apr-2019 03:03:14 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi1.php on line 10
+[22-Apr-2019 03:03:14 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi2.php on line 10
+[22-Apr-2019 03:04:57 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi1.php on line 10
+[22-Apr-2019 03:04:57 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi2.php on line 10
+[22-Apr-2019 03:05:17 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi1.php on line 10
+[22-Apr-2019 03:05:17 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi2.php on line 10
+[22-Apr-2019 03:05:19 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi1.php on line 10
+[22-Apr-2019 03:05:19 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi2.php on line 10
+[22-Apr-2019 03:06:21 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi1.php on line 10
+[22-Apr-2019 03:06:21 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/Lab08/dbApi2.php on line 10
+[22-Apr-2019 03:16:30 UTC] PHP Parse error:  syntax error, unexpected '$namedParameters' (T_VARIABLE) in /home/ubuntu/workspace/Lab08/dbApi2.php on line 15
+[22-Apr-2019 03:18:05 UTC] PHP Parse error:  syntax error, unexpected '$namedParameters' (T_VARIABLE) in /home/ubuntu/workspace/Lab08/dbApi2.php on line 15
+[22-Apr-2019 03:43:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.favorites' doesn't exist' in /home/ubuntu/workspace/Lab08/dbApi2.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/Lab08/dbApi2.php(19): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/Lab08/dbApi2.php on line 19
+[22-Apr-2019 03:46:43 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/dbApiDel.php on line 3
+[22-Apr-2019 03:46:43 UTC] PHP Stack trace:
+[22-Apr-2019 03:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/dbApiDel.php:0
+[22-Apr-2019 03:46:43 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/dbApiDel.php on line 3
+[22-Apr-2019 03:46:43 UTC] PHP Stack trace:
+[22-Apr-2019 03:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/dbApiDel.php:0
+[22-Apr-2019 03:46:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab08/dbApiDel.php on line 4
+[22-Apr-2019 03:46:43 UTC] PHP Stack trace:
+[22-Apr-2019 03:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/dbApiDel.php:0
