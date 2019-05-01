@@ -87,7 +87,7 @@
                     },
                     error: function(err) {
                         console.log(arguments);
-                        $("#im1").append("NO REARCH RESULTS! TRY GOOGLE, IT WORKS BETTER! ;)");
+                        $("#im1").append("NO REARCH RESULTS! TRY GOOGLE IT WORKS BETTER! ;)");
                     },
                     complete: function(data, status) {
                         // Called whether success or error
@@ -99,6 +99,7 @@
 
       
          });
+         
         function favorite(url,i){
             //  console.log($(url).attr("id"));
             //  console.log($("#searchT").val());

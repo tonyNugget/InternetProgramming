@@ -635,3 +635,89 @@ Stack trace:
 [22-Apr-2019 03:46:43 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/Lab08/dbApiDel.php on line 4
 [22-Apr-2019 03:46:43 UTC] PHP Stack trace:
 [22-Apr-2019 03:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/dbApiDel.php:0
+[24-Apr-2019 22:19:18 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/index.php on line 2
+[24-Apr-2019 22:19:18 UTC] PHP Stack trace:
+[24-Apr-2019 22:19:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/index.php:0
+[24-Apr-2019 22:19:18 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/index.php on line 2
+[24-Apr-2019 22:19:18 UTC] PHP Stack trace:
+[24-Apr-2019 22:19:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/index.php:0
+[24-Apr-2019 22:20:39 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:20:39 UTC] PHP Stack trace:
+[24-Apr-2019 22:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:20:39 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:20:39 UTC] PHP Stack trace:
+[24-Apr-2019 22:20:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:00 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:00 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:00 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:00 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:04 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:04 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:04 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:04 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:07 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:07 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:07 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:07 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:45 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:45 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:45 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:47 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:47 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:21:47 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:21:47 UTC] PHP Stack trace:
+[24-Apr-2019 22:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:25:29 UTC] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/home/ubuntu/workspace/Lab08/../../../app.log" could not be opened; it may be invalid or not writable.' in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:67
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(41): Monolog\Handler\StreamHandler->write(Array)
+#1 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(191): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Logger.php(308): Monolog\Logger->addRecord(200, 'I am inside the...', Array)
+#3 /home/ubuntu/workspace/Lab08/index.php(197): Monolog\Logger->info('I am inside the...')
+#4 {main}
+  thrown in /home/ubuntu/workspace/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 67
+[24-Apr-2019 22:25:45 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:25:45 UTC] PHP Stack trace:
+[24-Apr-2019 22:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:25:45 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:25:45 UTC] PHP Stack trace:
+[24-Apr-2019 22:25:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:26:08 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:26:08 UTC] PHP Stack trace:
+[24-Apr-2019 22:26:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:26:08 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:26:08 UTC] PHP Stack trace:
+[24-Apr-2019 22:26:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:26:38 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:26:38 UTC] PHP Stack trace:
+[24-Apr-2019 22:26:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:26:38 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:26:38 UTC] PHP Stack trace:
+[24-Apr-2019 22:26:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:26:52 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:26:52 UTC] PHP Stack trace:
+[24-Apr-2019 22:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:26:52 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:26:52 UTC] PHP Stack trace:
+[24-Apr-2019 22:26:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:27:33 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:27:33 UTC] PHP Stack trace:
+[24-Apr-2019 22:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:27:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:27:33 UTC] PHP Stack trace:
+[24-Apr-2019 22:27:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:27:59 UTC] PHP Warning:  require(/home/ubuntu/workspace/Lab08../vendor/autoload.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:27:59 UTC] PHP Stack trace:
+[24-Apr-2019 22:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
+[24-Apr-2019 22:27:59 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace/Lab08../vendor/autoload.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/Lab08/api.php on line 3
+[24-Apr-2019 22:27:59 UTC] PHP Stack trace:
+[24-Apr-2019 22:27:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/Lab08/api.php:0
