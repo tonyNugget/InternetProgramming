@@ -89,15 +89,15 @@
                             for(var i = 0; i < data.length; i++){
                                 schDate = data[i]['date'];
                                 var splitUp = schDate.split("/");
-                                console.log(splitUp[0] + " " + splitUp[1] + " " + splitUp[2]);
+                                //console.log(splitUp[0] + " " + splitUp[1] + " " + splitUp[2]);
                                 var printY = false;
                                 var printM = false;
-                                console.log(parseInt(splitUp[1]));
-                                console.log(parseInt(mm));
+                                //console.log(parseInt(splitUp[1]));
+                                //console.log(parseInt(mm));
                                 // Print the available time slots, only print if time slot is in the future.
-                                if(parseInt(splitUp[2]) >= yyyy){
+                                //if(parseInt(splitUp[2]) >= yyyy){
                                         $("#scheduleList").append("<tr><td>"+ data[i]['date'] +"</td><td>"+ data[i]['start']+"</td><td>"+ data[i]['duration'] +"</td><td>"+ data[i]['booked_by'] +"</td> <td><button type='button' name='delTime'  href='#myModal' data-toggle='modal'  timeId ='"+ data[i]['id'] +"' class='btn btn-danger'>Delete Time Slot</button></td></tr>");   
-                                }
+                                //}
                                 //Delete confirmation
                                 $("button[name='delTime']").click( function(){
                                     var thisId = $(this).attr("timeId");
