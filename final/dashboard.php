@@ -17,6 +17,8 @@
     <body>
             <div>
                 <button onclick="window.location.href='rubric.html'" class='btn btn-warning'>Grading Rubric</button>
+                <button onclick="window.location.href='https://zerka-cst336.herokuapp.com/final/login.html'" class='btn btn-warning'>Link To Heroku App</button>
+
                 <!--logout Button-->
                 <button id="logout" class="btn btn-danger">Logout</button>
             </div>
