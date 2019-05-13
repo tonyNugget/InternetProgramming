@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+#logout{
+    display: flex;
+    text-align:left;
+    margin-left: auto;
+}
+#headerDashboard{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#invitation{
+    width:1000px;
+}
+.modal-content{
+    background-color: lightblue;
+}
+.rubric{
+    background-color: white;
+    color:white;
+}
+#done{
+    color:green;
+}
